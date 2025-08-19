@@ -1,0 +1,7 @@
+# Dockerfile.web
+FROM node:18-alpine
+WORKDIR /app
+COPY . /app
+RUN npm i -g http-server
+EXPOSE 8080
+CMD ["http-server", ".", "-p", "8080", "--cors"]

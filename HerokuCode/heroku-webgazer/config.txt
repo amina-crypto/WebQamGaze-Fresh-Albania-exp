@@ -176,6 +176,7 @@ login_pw = password123
 # the task runner! Otherwise, dynamically dependent on the number of cpus.
 # If ON_CLOUD=1, then threads defaults to 1.
 threads = 1
+workers = 1  # Add or uncomment this line
 # The secret key used by flask for any secure functions it uses. Not necessary
 # to set unless using a secure function.
 # e.g.,
