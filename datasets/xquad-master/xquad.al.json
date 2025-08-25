@@ -1,0 +1,650 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "context": "Mbrojtja e Panterave lejoi vetëm 308 pikë, duke u renditur e gjashta në ligë, ndërsa gjithashtu udhëheqte NFL-në në ndërprerje me 24 dhe kishte katër zgjedhje Pro Bowl. Mbrojtësi i Pro Bowl Kawann Short udhëheqte ekipin në saket me 11, ndërsa gjithashtu detyroi tre fumble dhe rimori dy. Linjështari i tjerë Mario Addison shtoi 6½ saket. Linja e Panterave gjithashtu përfshinte mbrojtësin e vjetër Jared Allen, një 5-herë pro bowler që ishte udhëheqësi aktiv i karrierës së NFL në saket me 136, së bashku me mbrojtësin Kony Ealy, që kishte 5 saket në vetëm 9 fillime. Pas tyre, dy nga tre linebackers fillestarë të Panterave u zgjodhën gjithashtu për të luajtur në Pro Bowl: Thomas Davis dhe Luke Kuechly. Davis përmblodhi 5½ saket, katër fumble të detyruar dhe katër ndërprerje, ndërsa Kuechly udhëheqte ekipin në takle (118) detyroi dy fumble dhe ndërpreu katër pase të tijat. Sekondari i Karolinës përfshinte sigurinë e Pro Bowl Kurt Coleman, që udhëheqte ekipin me një rekord të ri karriere prej shtatë ndërprerjesh, ndërsa gjithashtu grumbulloi 88 takle dhe mbrojtësin e Pro Bowl Josh Norman, që u zhvillua në një kënd të mbyllur gjatë sezonit dhe kishte katër ndërprerje, dy prej të cilave u kthyen për touchdown.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 34,
+                  "text": "308"
+                }
+              ],
+              "id": "56beb4343aeaaa14008c925b",
+              "question": "Sa pikë lejoi mbrojtja e Panterave?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 470,
+                  "text": "136"
+                }
+              ],
+              "id": "56beb4343aeaaa14008c925c",
+              "question": "Sa saket karriere kishte Jared Allen?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 789,
+                  "text": "118"
+                }
+              ],
+              "id": "56beb4343aeaaa14008c925d",
+              "question": "Sa takle regjistroi Luke Kuechly?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 140,
+                  "text": "katër"
+                }
+              ],
+              "id": "56beb4343aeaaa14008c925e",
+              "question": "Sa topa ndërpreu Josh Norman?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 192,
+                  "text": "Kawann Short"
+                }
+              ],
+              "id": "56beb4343aeaaa14008c925f",
+              "question": "Kush regjistroi më shumë saket në ekip këtë sezon?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 124,
+                  "text": "24"
+                }
+              ],
+              "id": "56d6f3500d65d21400198290",
+              "question": "Sa ndërprerje i kreditohet mbrojtjes së Panterave në 2015?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 192,
+                  "text": "Kawann Short"
+                }
+              ],
+              "id": "56d6f3500d65d21400198291",
+              "question": "Kush udhëheqte Panterat në saket?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 140,
+                  "text": "katër"
+                }
+              ],
+              "id": "56d6f3500d65d21400198292",
+              "question": "Sa lojtarë të mbrojtjes së Panterave u zgjodhën për Pro Bowl?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 140,
+                  "text": "katër"
+                }
+              ],
+              "id": "56d6f3500d65d21400198293",
+              "question": "Sa fumble të detyruar kishte Thomas Davis?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 900,
+                  "text": "Kurt Coleman"
+                }
+              ],
+              "id": "56d6f3500d65d21400198294",
+              "question": "Cili lojtar kishte më shumë ndërprerje për sezonin?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 124,
+                  "text": "24"
+                }
+              ],
+              "id": "56d9992fdc89441400fdb59c",
+              "question": "Sa ndërprerje të sezonit 2015 mori mbrojtja e Panterave?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 500,
+                  "text": "Kony Ealy"
+                }
+              ],
+              "id": "56d9992fdc89441400fdb59e",
+              "question": "Kush kishte pesë saket në nëntë lojë si fillestar i Panterave të Karolinës?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 666,
+                  "text": "Luke Kuechly."
+                }
+              ],
+              "id": "56d9992fdc89441400fdb59f",
+              "question": "Kush ishte udhëheqësi i takleve të Panterave për 2015?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 284,
+                  "text": "dy."
+                }
+              ],
+              "id": "56d9992fdc89441400fdb5a0",
+              "question": "Sa ndërprerje bëri Josh Norman touchdown me në 2015?"
+            }
+          ]
+        },
+        {
+          "context": "Broncos mposhtën Pittsburgh Steelers në raundin ndarës, 23–16, duke shënuar 11 pikë në tre minutat e fundit të lojës. Ata më pas mposhtën kampionin e mbrojtur të Super Bowl XLIX New England Patriots në Lojën e Kampionatit AFC, 20–18, duke ndërprerë një pas në përpjekjen e konvertimit 2-pikë të New England me 17 sekonda të mbetura në orë. Pavarësisht problemeve të Manning me ndërprerjet gjatë sezonit, ai nuk hodhi asnjë në dy lojërat e tyre të playoff.",
+          "qas": [
+            {
+              "answers": [
+                {
+                  "answer_start": 25,
+                  "text": "Pittsburgh Steelers"
+                }
+              ],
+              "id": "56beb7953aeaaa14008c92ab",
+              "question": "Kush humbi kundër Broncos në raundin ndarës?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 88,
+                  "text": "11"
+                }
+              ],
+              "id": "56beb7953aeaaa14008c92ac",
+              "question": "Sa pikë shënuan Broncos në tre minutat e fundit të lojës kundër Pittsburgh?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 192,
+                  "text": "New England Patriots"
+                }
+              ],
+              "id": "56beb7953aeaaa14008c92ad",
+              "question": "Kush fitoi Super Bowl XLIX?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 243,
+                  "text": "20–18"
+                }
+              ],
+              "id": "56beb7953aeaaa14008c92ae",
+              "question": "Cili ishte rezultati përfundimtar i Lojës së Kampionatit AFC?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 322,
+                  "text": "17 sekonda"
+                }
+              ],
+              "id": "56beb7953aeaaa14008c92af",
+              "question": "Sa kohë mbeti në orë kur Broncos bënë ndërprerjen që siguroi Lojën e Kampionatit AFC?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 4,
+                  "text": "Broncos"
+                }
+              ],
+              "id": "56bf36b93aeaaa14008c9561",
+              "question": "Cili ekip ishte fituesi i raundit ndarës mes Broncos dhe Steelers?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 70,
+                  "text": "23–16"
+                }
+              ],
+              "id": "56bf36b93aeaaa14008c9562",
+              "question": "Cili ishte rezultati përfundimtar i lojës mes Broncos dhe Steelers?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 192,
+                  "text": "New England Patriots"
+                }
+              ],
+              "id": "56bf36b93aeaaa14008c9563",
+              "question": "Kush fitoi Super Bowl XLIX?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 322,
+                  "text": "17"
+                }
+              ],
+              "id": "56bf36b93aeaaa14008c9564",
+              "question": "Sa sekonda mbetën në lojë kur Broncos ndërpreën pasin që fitoi lojën?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 360,
+                  "text": "Manning"
+                }
+              ],
+              "id": "56bf36b93aeaaa14008c9565",
+              "question": "Gjatë lojërave të playoff të Broncos, kush nuk hodhi fare?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 25,
+                  "text": "Pittsburgh Steelers"
+                }
+              ],
+              "id": "56d7018a0d65d214001982c2",
+              "question": "Kë kundër mposhtën Broncos në lojën ndarëse?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 88,
+                  "text": "11"
+                }
+              ],
+              "id": "56d7018a0d65d214001982c3",
+              "question": "Sa pikë shënuan Broncos në tre minutat e fundit të lojës së Pittsburgh?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 192,
+                  "text": "New England Patriots"
+                }
+              ],
+              "id": "56d7018a0d65d214001982c5",
+              "question": "Kë kundër mposhtën Broncos në lojën e Kampionatit AFC?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 25,
+                  "text": "Pittsburgh Steelers"
+                }
+              ],
+              "id": "56d99f99dc89441400fdb628",
+              "question": "Kë kundër mposhtën Broncos për të fituar ndarjen e tyre në 2015?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 192,
+                  "text": "New England Patriots"
+                }
+              ],
+              "id": "56d99f99dc89441400fdb629",
+              "question": "Kë kundër mposhtën Broncos për t'u bërë kampionët AFC?"
+            },
+            {
+              "answers": [
+                {
+                  "answer_start": 322,
+                  "text": "17"
+                }
+              ],
+              "id": "56d99f99dc89441400fdb62c",
+              "question": "Sa sekonda mbetën në lojë kur Patriots dështuan konvertimin e tyre 2-pikë?"
+            }
+          ]
+        }
+      ],
+             "title": "Super_Bowl_50"
+     },
+     {
+       "paragraphs": [
+         {
+           "context": "Peyton Manning u bë quarterbacki i parë që udhëheqte dy ekipe të ndryshme në Super Bowl të shumëfishta. Ai është gjithashtu quarterbacki më i vjetër që luajti ndonjëherë në një Super Bowl në moshën 39. Rekordi i mëparshëm mbajte nga John Elway, që udhëheqte Broncos në fitore në Super Bowl XXXIII në moshën 38 dhe aktualisht është Zv. Presidenti Ekzekutiv i Operacioneve të Futbollit dhe Menaxheri i Përgjithshëm i Denver.",
+           "qas": [
+             {
+               "answers": [
+                 {
+                   "answer_start": 172,
+                   "text": "39"
+                 }
+               ],
+               "id": "56beb86b3aeaaa14008c92bd",
+               "question": "Sa vjeç ishte Peyton Manning kur luajti në Super Bowl 50?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 204,
+                   "text": "John Elway"
+                 }
+               ],
+               "id": "56beb86b3aeaaa14008c92be",
+               "question": "Kush mbajti më parë rekordin për të qenë quarterbacki më i vjetër që luajti në një Super Bowl?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 275,
+                   "text": "38"
+                 }
+               ],
+               "id": "56beb86b3aeaaa14008c92bf",
+               "question": "Sa vjeç ishte John Elway kur luajti në Super Bowl XXXIII?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 304,
+                   "text": "Zv. Presidenti Ekzekutiv i Operacioneve të Futbollit dhe Menaxheri i Përgjithshëm"
+                 }
+               ],
+               "id": "56beb86b3aeaaa14008c92c0",
+               "question": "Çfarë roli ka aktualisht John Elway në franchizën e Broncos?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 228,
+                   "text": "Broncos"
+                 }
+               ],
+               "id": "56beb86b3aeaaa14008c92c1",
+               "question": "Për kë luajti John Elway në Super Bowl XXXIII?"
+             }
+           ]
+         }
+       ],
+       "title": "Peyton_Manning"
+     },
+     {
+       "paragraphs": [
+         {
+           "context": "Fituesi i gjashtë Grammy dhe kandidati i Çmimit të Akademisë Lady Gaga interpretoi himnin kombëtar, ndërsa fituesi i Çmimit të Akademisë Marlee Matlin ofroi përkthimin në Gjuhën e Shenjave Amerikane (ASL).",
+           "qas": [
+             {
+               "answers": [
+                 {
+                   "answer_start": 0,
+                   "text": "Gjashtë"
+                 }
+               ],
+               "id": "56bec6ac3aeaaa14008c93fd",
+               "question": "Sa Grammy ka fituar Lady Gaga?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 69,
+                   "text": "himnin kombëtar"
+                 }
+               ],
+               "id": "56bec6ac3aeaaa14008c93fe",
+               "question": "Çfarë këndoi Lady Gaga?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 27,
+                   "text": "Çmimi i Akademisë"
+                 }
+               ],
+               "id": "56bec6ac3aeaaa14008c93ff",
+               "question": "Çfarë çmimi ka fituar Marlee Matlin?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 69,
+                   "text": "himnin kombëtar"
+                 }
+               ],
+               "id": "56bec6ac3aeaaa14008c9400",
+               "question": "Çfarë përktheu Marlee Matlin?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 140,
+                   "text": "Gjuhën e Shenjave Amerikane"
+                 }
+               ],
+               "id": "56bec6ac3aeaaa14008c9401",
+               "question": "Në çfarë gjuhe përktheu Marlee Matlin himnin kombëtar?"
+             }
+           ]
+         }
+       ],
+       "title": "Super_Bowl_50_Performances"
+     },
+     {
+       "paragraphs": [
+         {
+           "context": "Me 4:51 të mbetur në rregullore, Karolina mori topin në vijën e tyre të 24-jardë me një mundësi për të montuar një sulm fitues të lojës, dhe së shpejti përballen me 3rd-and-9. Në lojën e radhës, Miller i hoqi topin nga Newton, dhe pasi disa lojtarë u hodhën për të, ai bëri një kërcim të gjatë prapa dhe u rimor nga Ward, që e ktheu pesë jarda në vijën e 4-jardë të Panterave. Megjithëse disa lojtarë u hodhën në grumbull për të përpjekur ta rimorin, Newton nuk e bëri dhe mungesa e tij e agresivitetit më vonë i fitoi kritika të rënda. Ndërkohë, sulmi i Denver u mbajt jashtë zonës së fundit për tre lojëra, por një penali mbajtjeje në mbrojtësin Josh Norman i dha Broncos një set të ri të poshtë. Pastaj Anderson shënoi në një vrapim touchdown 2-jardë dhe Manning përfundoi një pas te Bennie Fowler për një konvertim 2-pikë, duke i dhënë Denver një udhëheqje 24–10 me 3:08 të mbetur dhe në thelb duke vendosur lojën larg. Karolina kishte dy sulme të tjerë, por dështoi të marrë një poshtë të parë në secilin.",
+           "qas": [
+             {
+               "answers": [
+                 {
+                   "answer_start": 65,
+                   "text": "24"
+                 }
+               ],
+               "id": "56beca913aeaaa14008c946d",
+               "question": "Në çfarë vije jarde filloi Karolina me 4:51 të mbetur në lojë?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 202,
+                   "text": "Newton"
+                 }
+               ],
+               "id": "56beca913aeaaa14008c946e",
+               "question": "Kush humbi topin në 3rd-and-9?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 620,
+                   "text": "Josh Norman"
+                 }
+               ],
+               "id": "56beca913aeaaa14008c946f",
+               "question": "Cili mbrojtës i Panterave u thirr për mbajtje në third down?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 674,
+                   "text": "Anderson"
+                 }
+               ],
+               "id": "56beca913aeaaa14008c9470",
+               "question": "Cili lojtar e futi topin nga 2?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 748,
+                   "text": "Bennie Fowler"
+                 }
+               ],
+               "id": "56beca913aeaaa14008c9471",
+               "question": "Kush ishte marrësi në konvertimin e suksesshëm 2-pikë?"
+             }
+           ]
+         }
+       ],
+       "title": "Super_Bowl_50_Game_Details"
+     },
+     {
+       "paragraphs": [
+         {
+           "context": "Afër, në Ogród Saski (Kopshti Sakson), Teatri i Verës ishte në funksion nga 1870 deri më 1939, dhe në periudhën ndërlufte, kompleksi i teatrit përfshinte gjithashtu Momus, kabareti i parë letrar i Varshavës, dhe teatrin muzikor të Leon Schiller Melodram. Teatri Wojciech Bogusławski (1922–26), ishte shembulli më i mirë i \"teatrit monumental polak\". Nga mesin e viteve 1930, ndërtesa e Teatrit të Madh strehoi Institutin Upati të Arteve Dramatike – akademinë e parë shtetërore të artit dramatik, me një departament aktrimi dhe një departament drejtimi skenik.",
+           "qas": [
+             {
+               "answers": [
+                 {
+                   "answer_start": 11,
+                   "text": "Ogród Saski"
+                 }
+               ],
+               "id": "57339c16d058e614000b5ec5",
+               "question": "Si quhet Kopshti Sakson në polonisht?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 28,
+                   "text": "Kopshti Sakson"
+                 }
+               ],
+               "id": "57339c16d058e614000b5ec6",
+               "question": "Ku ndodhej Teatri i Verës?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 84,
+                   "text": "1870 deri më 1939"
+                 }
+               ],
+               "id": "57339c16d058e614000b5ec7",
+               "question": "Sa kohë ishte Teatri i Verës në funksion?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 161,
+                   "text": "Momus"
+                 }
+               ],
+               "id": "57339c16d058e614000b5ec8",
+               "question": "Çfarë ishte kabareti i parë letrar i Varshavës?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 251,
+                   "text": "Teatri Wojciech Bogusławski"
+                 }
+               ],
+               "id": "57339c16d058e614000b5ec9",
+               "question": "Cili teatër ishte shembulli më i mirë i \"teatrit monumental polak\"?"
+             }
+           ]
+         }
+       ],
+       "title": "Varshavë"
+     },
+     {
+       "paragraphs": [
+         {
+           "context": "Tesla ishte i famshëm për arritjet e tij dhe aftësitë performuese, duke i fituar atij një reputacion në kulturën popullore si një \"shkencëtar i çmendur\" arketipal. Patentat e tij i fituan atij një shumë të konsiderueshme parash, shumë nga të cilat u përdorën për të financuar projektet e veta me shkallë të ndryshme suksesi. Ai jetoi shumicën e jetës së tij në një seri hotelesh në New York, përmes pensionit të tij. Tesla vdiq më 7 janar 1943. Puna e tij ra në mjegullim relativ pas vdekjes së tij, por në 1960 Konferenca e Përgjithshme për Peshat dhe Masat e quajti njësinë SI të densitetit të fluksit magnetik tesla në nderin e tij. Ka pasur një ringjallje në interesin popullor për Teslën që nga vitet 1990.",
+           "qas": [
+             {
+               "answers": [
+                 {
+                   "answer_start": 399,
+                   "text": "1943"
+                 }
+               ],
+               "id": "56dfa0d84a1a83140091ebb7",
+               "question": "Në çfarë viti vdiq Tesla?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 529,
+                   "text": "njësia SI e densitetit të fluksit magnetik"
+                 }
+               ],
+               "id": "56dfa0d84a1a83140091ebb8",
+               "question": "Çfarë u quajt \"Tesla\" në nderin e tij?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 334,
+                   "text": "hotelet e New York"
+                 }
+               ],
+               "id": "56dfa0d84a1a83140091ebb9",
+               "question": "Ku jetoi Tesla për shumicën e jetës së tij?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 130,
+                   "text": "shkencëtar i çmendur"
+                 }
+               ],
+               "id": "56dfa0d84a1a831400ebba",
+               "question": "Çfarë reputacioni kishte Tesla në kulturën popullore?"
+             }
+           ]
+         }
+       ],
+       "title": "Nikola_Tesla"
+     },
+     {
+       "paragraphs": [
+         {
+           "context": "Teoria e kompleksitetit llogaritës është një degë e teorisë së llogaritjes në shkencën kompjuterike teorike që fokusohet në klasifikimin e problemeve llogaritëse sipas vështirësisë së tyre të natyrshme, dhe lidhjen e këtyre klasave me njëra-tjetrën. Një problem llogaritës kuptohet të jetë një detyrë që në parim është e përshtatshme për t'u zgjidhur nga një kompjuter, që është ekuivalente me thënien se problemi mund të zgjidhet me aplikim mekanik të hapave matematikë, si një algoritëm.",
+           "qas": [
+             {
+               "answers": [
+                 {
+                   "answer_start": 0,
+                   "text": "Teoria e kompleksitetit llogaritës"
+                 }
+               ],
+               "id": "56e16182e3433e1400422e28",
+               "question": "Cila degë e shkencës kompjuterike teorike merret me klasifikimin e gjerë të problemeve llogaritëse sipas vështirësisë dhe klasës së marrëdhënies?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 175,
+                   "text": "vështirësia e natyrshme"
+                 }
+               ],
+               "id": "56e16182e3433e1400422e29",
+               "question": "Sipas cilës atribut kryesor klasifikohen problemet llogaritëse duke përdorur teorinë e kompleksitetit llogaritës?"
+             },
+             {
+               "answers": [
+                 {
+                   "answer_start": 133,
+                   "text": "problemet llogaritëse"
+                 }
+               ],
+               "id": "56e16182e3433e1400422e2a",
+               "question": "Cili është termi për një detyrë që në përgjithësi i jepet zgjidhjes nga një kompjuter?"
+             }
+           ]
+         }
+       ],
+       "title": "Teoria_e_kompleksitetit_llogaritës"
+     }
+   ],
+   "version": "1.1"
+ }

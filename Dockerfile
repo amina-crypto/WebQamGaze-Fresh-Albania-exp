@@ -1,48 +1,58 @@
-# Use an official Python 3.9 base image for compatibility
-FROM python:3.9-slim
+# Dockerfile — run the Heroku webgazer Flask app
+FROM python:3.10-slim
 
-# Set working directory
-WORKDIR /psiturk
+# (optional) graceful stop
+RUN apt-get update && apt-get install -y --no-install-recommends tini \
+ && rm -rf /var/lib/apt/lists/*
 
-# Copy the contents of heroku-webgazer into the container root
-COPY HerokuCode/heroku-webgazer/. /psiturk
+WORKDIR /app
 
-# Debug: List contents of /psiturk to verify static/js is copied
-RUN ls -l /psiturk
+# copy the Heroku app into the image
+COPY HerokuCode/heroku-webgazer/ /app/
 
-# Install system dependencies (Node.js/npm for WebGazer/jsPsych, build tools for cffi and npm builds)
-RUN apt-get update && apt-get install -y \
-    nodejs \
-    npm \
-    build-essential \
+# install deps (use the app’s requirements.txt if present)
+RUN if [ -f requirements.txt ]; then \
+      pip install --no-cache-dir -r requirements.txt ; \
+    else \
+      pip install --no-cache-dir flask==2.2.* gunicorn==21.* ; \
+    fi
+
+ENV PORT=8080
+EXPOSE 8080
+
+ENTRYPOINT ["/usr/bin/tini","--"]
+
+# EITHER run via python…
+# CMD ["python", "herokuapp.py", "--port", "8080"]
+
+# …or recommended: run via gunicorn
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "herokuapp:app"]
+# Use slim Python
+FROM python:3.10-slim
+
+# Install system dependencies required for building psiturk + psycopg2 + psutil
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    g++ \
+    make \
+    libpq-dev \
     libffi-dev \
+    build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python dependencies compatible with psiturk==2.3.3
-RUN pip install --no-cache-dir \
-    psiturk==2.3.3 \
-    flask==1.0.3 \
-    werkzeug==0.15.4
+# Set working directory
+WORKDIR /app
 
-# Configure npm to handle network issues (increase timeout and retries)
-RUN npm config set fetch-retries 5 \
-    && npm config set fetch-retry-mintimeout 20000 \
-    && npm config set fetch-retry-maxtimeout 120000 \
-    && npm config set fetch-timeout 120000
+# Copy Heroku webgazer app
+COPY HerokuCode/heroku-webgazer/ /app/
 
-# Install WebGazer and jsPsych via npm, ensuring build tools are available
-RUN npm install --build-from-source webgazer jspsych
+# Install Python requirements (from HerokuCode requirements.txt)
+RUN pip install --upgrade pip \
+    && if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; \
+       else pip install --no-cache-dir flask gunicorn; fi
 
-# Debug: List contents of node_modules/jspsych to verify dist/jspsych.js is built
-RUN ls -l /psiturk/node_modules/jspsych/
+# Expose port 8080 for the Flask server
+EXPOSE 8080
 
-# Ensure static/js exists and copy npm-installed files to it
-RUN mkdir -p /psiturk/static/js \
-    && cp node_modules/webgazer/dist/webgazer.js /psiturk/static/js/ \
-    && [ -f "node_modules/jspsych/dist/jspsych.js" ] && cp node_modules/jspsych/dist/jspsych.js /psiturk/static/js/ || echo "jspsych.js not found, using local file"
-
-# Expose the default psiTurk port
-EXPOSE 22362
-
-# Start psiTurk server
-CMD ["psiturk-server"]
+# Start Flask app via gunicorn
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "herokuapp:app"]

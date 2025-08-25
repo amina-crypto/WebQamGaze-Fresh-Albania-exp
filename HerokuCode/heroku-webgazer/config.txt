@@ -148,7 +148,9 @@ host = 0.0.0.0
 # is run.
 #
 # If env var ON_CLOUD=1, then this defaults to $PORT env var, if set
-port = 22362
+#port = 22362
+port = 8080
+
 # Filename for psiturk server logging.
 #
 # If ON_CLOUD env var is set, then these both default to stdout (-)
@@ -176,7 +178,7 @@ login_pw = password123
 # the task runner! Otherwise, dynamically dependent on the number of cpus.
 # If ON_CLOUD=1, then threads defaults to 1.
 threads = 1
-workers = 1  # Add or uncomment this line
+
 # The secret key used by flask for any secure functions it uses. Not necessary
 # to set unless using a secure function.
 # e.g.,
