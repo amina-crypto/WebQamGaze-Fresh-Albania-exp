@@ -1,7 +1,7 @@
 --------Teksti 1--------
 Një shkrues është një person që shkruan libra ose dokumente me dorë dhe mund të ndihmojë në mbajtjen e regjistrave për priftërinjtë dhe qeverinë. Ky profesion ka ekzistuar më parë në të gjitha kulturat letrare në një formë ose tjetër. Puna mund të përfshijë kopjimin e librave, përfshirë tekstet e shenjta, ose detyra sekretarie dhe administrative, si marrja e diktatit dhe mbajtja e regjistrave të biznesit, gjyqësorë dhe historikë për mbretër, fisnikë, tempuj dhe qytete. Në Egjiptin e lashtë, shkruesit konsideroheshin pjesë e oborrit mbretëror, <q1>nuk rekrutoheshin</q1> dhe <q2>nuk paguanin taksa</q2>. Djemtë e shkruesve rriteshin në të njëjtën traditë, dërgoheshin në shkollë dhe, kur hynin në shërbimin civil, <q3>trashëgonin pozicionet e etërve të tyre</q3>. Në kohët moderne, megjithatë, profesioni humbi shumicën e rëndësisë dhe statusit me ardhjen e shtypshkronjës. Por edhe sot, në shoqëri me nivele të ulëta të shkrim-leximit, shkrues dhe lexues në rrugë <q4>mund të gjenden ende duke ofruar shërbime</q4>.
 --------Pyetje për tekstin 1--------
-A punësoheshin zakonisht shkruesit për shkrimin e tyre të bukur?
+A punësoheshin zakonisht shkruesit për bukurshkrimin e tyre?
 0
 Në Egjiptin e lashtë, a ishin shkruesit të përjashtuar nga pagesa e taksave?
 1
