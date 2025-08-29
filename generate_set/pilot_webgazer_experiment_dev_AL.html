@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>Eksperimenti Pilot WebGazer</title>
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        #instructions, #calibration, #experiment, #thankyou { display: none; }
+        .center { text-align: center; }
+        button { padding: 10px 20px; font-size: 16px; }
+        #webgazerVideoContainer { position: fixed; top: 10px; right: 10px; z-index: 1000; }
+    </style>
+</head>
+<body>
+    <div id="instructions" class="center">
+        <h2>Mirë se vini në Eksperimentin Pilot WebGazer!</h2>
+        <p>
+            Ky eksperiment përdor ndjekjen e syve për të mbledhur të dhëna rreth mënyrës se si lexoni tekstin në ekran.<br>
+            Ju lutemi sigurohuni që të jeni ulur rehat, me ndriçim të mirë, dhe që kamera juaj të jetë e aktivizuar.<br>
+            Të dhënat tuaja do të mbahen konfidenciale.
+        </p>
+        <button onclick="showCalibration()">Vazhdo</button>
+    </div>
+
+    <div id="calibration" class="center">
+        <h2>Kalibrimi i Ndjekjes së Syve</h2>
+        <p>
+            Për të filluar, ju lutemi ndiqni pikat që shfaqen në ekran me sytë tuaj.<br>
+            Klikoni mbi secilën pikë kur të jeni duke e parë atë.
+        </p>
+        <div id="calibrationPoints"></div>
+        <button id="calibrationDone" style="display:none;" onclick="startExperiment()">Filloni Eksperimentin</button>
+    </div>
+
+    <div id="experiment" class="center">
+        <h2>Lexoni tekstin më poshtë</h2>
+        <p id="experimentText">
+            Ky është një tekst shembull për eksperimentin e ndjekjes së syve. Ju lutemi lexoni me kujdes dhe natyrshëm.
+        </p>
+        <button onclick="endExperiment()">Përfundo</button>
+    </div>
+
+    <div id="thankyou" class="center">
+        <h2>Faleminderit!</h2>
+        <p>
+            Eksperimenti ka përfunduar. Faleminderit për pjesëmarrjen tuaj!
+        </p>
+    </div>
+
+    <div id="webgazerVideoContainer"></div>
+
+    <script>
+        // Show instructions first
+        document.getElementById('instructions').style.display = 'block';
+
+        function showCalibration() {
+            document.getElementById('instructions').style.display = 'none';
+            document.getElementById('calibration').style.display = 'block';
+            startCalibration();
+        }
+
+        // Calibration points logic
+        const points = [
+            {x: "10%", y: "10%"}, {x: "50%", y: "10%"}, {x: "90%", y: "10%"},
+            {x: "10%", y: "50%"}, {x: "50%", y: "50%"}, {x: "90%", y: "50%"},
+            {x: "10%", y: "90%"}, {x: "50%", y: "90%"}, {x: "90%", y: "90%"}
+        ];
+        let currentPoint = 0;
+
+        function startCalibration() {
+            const container = document.getElementById('calibrationPoints');
+            container.innerHTML = '';
+            showNextPoint();
+        }
+
+        function showNextPoint() {
+            const container = document.getElementById('calibrationPoints');
+            container.innerHTML = '';
+            if (currentPoint < points.length) {
+                const point = document.createElement('div');
+                point.style.position = 'absolute';
+                point.style.left = points[currentPoint].x;
+                point.style.top = points[currentPoint].y;
+                point.style.width = '30px';
+                point.style.height = '30px';
+                point.style.background = '#007bff';
+                point.style.borderRadius = '50%';
+                point.style.cursor = 'pointer';
+                point.style.zIndex = '100';
+                point.onclick = function() {
+                    // Simulate calibration step
+                    currentPoint++;
+                    showNextPoint();
+                };
+                container.appendChild(point);
+            } else {
+                document.getElementById('calibrationDone').style.display = 'inline-block';
+            }
+        }
+
+        function startExperiment() {
+            document.getElementById('calibration').style.display = 'none';
+            document.getElementById('experiment').style.display = 'block';
+            // Start WebGazer
+            webgazer.setRegression('ridge')
+                .setGazeListener(function(data, elapsedTime) {
+                    // Mund të shtoni logjikën për ruajtjen e të dhënave këtu
+                })
+                .begin();
+            // Show video feedback
+            webgazer.showVideo(true).showFaceOverlay(true).showFaceFeedbackBox(true);
+        }
+
+        function endExperiment() {
+            document.getElementById('experiment').style.display = 'none';
+            document.getElementById('thankyou').style.display = 'block';
+            webgazer.end();
+        }
+    </script>
+</body>
+</html>

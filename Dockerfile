@@ -56,3 +56,6 @@ EXPOSE 8080
 
 # Start Flask app via gunicorn
 CMD ["gunicorn", "-b", "0.0.0.0:8080", "herokuapp:app"]
+# Make logs directory so psiturk can write there
+RUN mkdir -p /psiturk/logs
+
